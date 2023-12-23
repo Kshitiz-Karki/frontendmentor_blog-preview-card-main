@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+:root {
+  font-family: Figtree, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(47, 88%, 63%);
+  max-width: 600px;
+  margin:  9em auto;
+  padding: 0 1.25rem;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  color: hsl(0, 0%, 50%);
+}
+
+.container {
+  border: 1px solid hsl(0, 0%, 7%);
+  font-size: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.5em;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0.5rem 0.5rem 0px hsl(0, 0%, 7%);
+}
+
+.container--img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.container--tag {
+  border: 0px solid hsl(0, 0%, 7%);
+  display: inline;
+  padding: 0.25em 0.75em;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 0.25em;
+}
+
+.container--date {
+  font-weight: normal;
+}
+
+.container--title:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+.container--avatar {
+  width: 2.25rem;
+  height: auto;
+  margin-right: 1rem;
+}
